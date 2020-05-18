@@ -15,4 +15,4 @@ s4 = s3/s1 * 100
 print('%s 提升了%0.1f%%!' % ("小明", s4))
 
 # 使用format()
-format('{0} 提升了{1:0.1f}!'.format('小明', s4))
+print(format('{0} 提升了{1:0.1f}%!'.format('小明', s4)))
